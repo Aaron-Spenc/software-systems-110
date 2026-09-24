@@ -84,5 +84,30 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
-
+# *What resources to use for assignments* 
+1. Follow directions
+2. Restart directions
+3. Ask a Classmate
+4. Use AI what applicable
+---
+## **What to do if stuck on a step**
+```
+[]Take a deepbreath
+[]Relax body
+[]Calm the mind
+```
+---
+### When the challage gets to you
+```
+-Step away from workload
+-Go for a Walk
+-Remember new skills are difficult
+```
+---
+#### How to improve new Skill
+1. Repeat action needed to preform 
+1. Be as relaxed as Posible
+1. Have fun 
+---
+# Links
+[GitHub](https://github.com/Aaron-Spenc)

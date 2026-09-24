@@ -2,7 +2,7 @@
 
 ### Quick Reference & Verification
 
-#### Daily Git Commands
+#### Daily Git Comman
 * `git clone <url>` - Downloads a repository to your computer
 * `git pull` - Fetches and merges the latest changes from GitHub
 * `git checkout -b <branch-name>` - Creates and switches to a new branch
