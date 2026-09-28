@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Internal, External, and Inline CSS Example</title>
+
+  <!-- External CSS (site-wide/base styles) -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Internal CSS (page-specific styles or quick overrides) -->
+  <style>
+    /* Internal style applied to all h1 elements */
+    h1 {
+      color: #1f4b99;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome</h1>
+
+  <div class="card">
+    <h2>Card Class</h2>
+    <p>This paragraph is styled by external CSS via the <code>.card</code> class.</p>
+
+    <!-- Inline CSS (style for this element only) -->
+    <button style="background:#1f4b99;color:white;border:none;padding:0.5rem 0.75rem;border-radius:6px;cursor:pointer;">
+      Inline-Styled Button
+    </button>
+  </div>
+  <div class="card">
+    <h2>Note Card Class</h2>
+    <p>This paragraph is styled by external CSS via the <code>.notecard</code> class.</p>
+
+        <!-- Example use of the ID selector -->
+    <p id="special-note">This is a highlighted note styled via an ID selector.</p>
+
+    <h3>Styling Priority Notes</h3>
+    <ol>
+      <li>Inline Styling</li>
+      <li>Internal and External Styling
+        <ul>
+          <li>Tie breaker needed</li>
+          <li>If physical <strong>&lt;style&gt;</strong> tag is above <strong>&lt;link&gt;</strong> tag: then External styles take precedence</li>
+          <li>If physical <strong>&lt;link&gt;</strong> tag is above <strong>&lt;style&gt;</strong> tag: then Internal styles take precedence</li>
+        </ul>
+      </li>
+    </ol>
+    <!-- Inline CSS (style for this element only) -->
+    <button style="background:#1f4b99;color:white;border:none;padding:0.5rem 0.75rem;border-radius:6px;cursor:pointer;">
+      Inline-Styled Button
+    </button>
+  </div>
+</body>
+</html>
