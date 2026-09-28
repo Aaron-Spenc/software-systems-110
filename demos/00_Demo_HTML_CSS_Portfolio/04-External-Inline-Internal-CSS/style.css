@@ -1,0 +1,27 @@
+/* External CSS (base layout and component styling) */
+
+/* ELEMENT SELECTOR: targets the <body> element */
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 2rem;
+  background: #f7f9fc;
+}
+
+/* CLASS SELECTOR: targets any element with class="card" */
+.card {
+  background: white;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 480px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* ID SELECTOR: targets the single element with id="special-note" */
+#special-note {
+  background: #fff8e6;
+  border-left: 4px solid #ffb300;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
