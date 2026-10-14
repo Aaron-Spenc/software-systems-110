@@ -21,8 +21,3 @@ This directory contains **scheduled programming assignments and practical exerci
 # Resources
 
 This directory contains **supplementary materials, documentation, and external guides** to support learning throughout the academic term. 
-
-### Contents
-* **Installation guides** and environment setup instructions.
-* **API documentation** and language reference links.
-* **Conceptual diagrams** and supplementary reading lists.
