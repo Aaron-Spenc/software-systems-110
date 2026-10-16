@@ -122,7 +122,7 @@ Markdown:
 Result:
 
 - [x] Install Git
-- [x] Install VS Code
+- [x] Install VS Code  
 - [ ] Complete Lab 1
 
 ---
