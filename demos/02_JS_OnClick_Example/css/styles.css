@@ -1,0 +1,74 @@
+
+/* Style the entire webpage */
+body {
+    background-color: #f8f7f4;
+    color: #292b32;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+    /* Center the website on the screen */
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Control the width and alignment of the main content */
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style the small introductory text */
+.eyebrow {
+    color: #77736b;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+/* Make paragraphs easier to read */
+p {
+    line-height: 1.7;
+}
+
+/* Style the interactive section */
+section {
+    background-color: #e9e7f0;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+/* Style the button */
+button {
+    background-color: #4c4a68;
+    color: white;
+    font-size: 16px;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Change the button color when hovered over */
+button:hover {
+    background-color: #37364a;
+}
+
+/* Style the footer */
+.footer {
+    color: #77736b;
+    font-size: 13px;
+    margin-top: 30px;
+}
