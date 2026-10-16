@@ -12,7 +12,7 @@
 * `git add .` - Stages all new and modified files in the current directory and its subdirectories
 * `git add --all` - Stages all changes (new, modified, and deleted files) across the entire repository
 * `git commit -m "message"` - Saves a snapshot of your staged changes
-* `git push origin <branch-name>` - Uploads your local branch to GitHub
+* `git push origin <branch-name>` - Uploads your local branch to Git
 
 #### Command Flow Example (EXAMPLE ONLY)
 > <br>
