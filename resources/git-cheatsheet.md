@@ -2,7 +2,7 @@
 
 ### Quick Reference & Verification
 
-#### Daily Git Comman
+#### Daily Git Commands
 * `git clone <url>` - Downloads a repository to your computer
 * `git pull` - Fetches and merges the latest changes from GitHub
 * `git checkout -b <branch-name>` - Creates and switches to a new branch
@@ -12,7 +12,7 @@
 * `git add .` - Stages all new and modified files in the current directory and its subdirectories
 * `git add --all` - Stages all changes (new, modified, and deleted files) across the entire repository
 * `git commit -m "message"` - Saves a snapshot of your staged changes
-* `git push origin <branch-name>` - Uploads your local branch to GitHub
+* `git push origin <branch-name>` - Uploads your local branch to Git
 
 #### Command Flow Example (EXAMPLE ONLY)
 > <br>
